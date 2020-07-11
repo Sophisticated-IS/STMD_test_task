@@ -1,0 +1,20 @@
+.table-hover tbody tr:hover td {
+    background: #2dd9cc;
+}
+.thead-dark th:hover {
+    background-color: #ffde0d !important;
+}
+#not_sortable{
+    background-color: #343a40 !important;
+}
+
+th {
+    white-space: nowrap !important;
+}
+
+.th-selected_sort:before{
+    font-weight: bold;
+    font-size: 25px;
+    content: "✱ ";
+    color: #ff0f26;
+}
